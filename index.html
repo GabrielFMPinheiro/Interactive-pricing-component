@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/script.js" defer></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+</head>
+<body class="flex-col-center">
+  
+  <main>
+      <header id="header-container" class="flex-row-center">
+        <h1>Simple, traffic-based pricing</h1>
+        <div class="flex-col-center">
+          <p class="text-color">Sign-up for our 30-day trial.</p> 
+          <p class="text-color">No credit card required.</p>
+        </div>
+      </header>
+
+      <section id="about-container" class="flex-col-center">
+
+        <div id="plans-container" class="flex-col-center">
+          <p class="text-color"><span id="views">100K</span> Pageviews</p>
+          <input type="range" min="0" max="4" id="slider" name="slider" value="2">
+          <p class="text-color flex-row-center"><span id="price">$16.00</span> / month</p>
+        </div>
+
+        <div id="toggle-container" class="flex-row-center">
+          <span class="option text-color">Monthly Billing</span>
+          <input type="checkbox" name="toggle" id="toggle">
+          <span class="option text-color">Yearly Billing</span>
+          <span id="discount-desktop">25% discount</span>
+          <span id="discount-mobile">-25%</span>
+        </div>
+        
+        <div id="acquisition-container" class="flex-col-center">
+          <div id="benefits" class="flex-col-center">
+            <div class="flex-row-center">
+              <img src="./images/icon-check.svg" alt="check">
+              <p class="text-color">Unlimited websites</p>
+            </div>
+            <div class="flex-row-center">
+              <img src="./images/icon-check.svg" alt="check">
+              <p class="text-color">100% data ownership</p>
+            </div>
+            <div class="flex-row-center">
+              <img src="./images/icon-check.svg" alt="check">
+              <p class="text-color">Email reports</p>
+            </div>
+          </div>
+
+          <button type="button" id="btn-start">Start my trial</button>
+        </div>
+        
+    </section>
+  </main>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
