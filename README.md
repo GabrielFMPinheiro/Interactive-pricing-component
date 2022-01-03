@@ -27,12 +27,12 @@ Users should be able to:
 ### Screenshot
 
 ![](./design/my_project_desktop.png)
-[](./design/my_project_mobile.png)
+![](./design/my_project_mobile.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://gabrielfmpinheiro.github.io/Interactive-pricing-component/](https://gabrielfmpinheiro.github.io/Interactive-pricing-component/)
 
 ## My process
 
